@@ -23,8 +23,3 @@ Donde si analizamos la trama de este ejemplo y basándose en el protocolo NMEA, 
 - 65.46 representa la orientación en grados
 - 020615 representa la fecha (2 de Junio del 2015)
 
-
-A continuación se muestra el diagrama de estado de la apliación. En primer lugar se muestra la MEF para resolver el antirebote de unos pulsadores. Luego otra MEF que mostrará los datos por celular segun el boton apretado.
-
-
-/home/nahuel/Descargas/Captura.PNG
