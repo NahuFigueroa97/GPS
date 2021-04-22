@@ -12,7 +12,7 @@ typedef void (*funcion_t[])();
 
 
 typedef enum {
-	no_presionado, presionando, presionado, soltando, rebote
+	no_presionado, presionando, soltando
 } estados_t;
 
 typedef enum {
