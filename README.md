@@ -4,6 +4,8 @@ Biblioteca liviana para la lectura de un GPS NEO-6M
 
 El módulo GPS en su modelo GY-GPS6MV2 viene con un módulo de serie U-Blox NEO 6M  equipado en el PCB, una EEPROM con configuración de fábrica, una pila de botón para mantener los datos de configuración en la memoria EEPROM, un indicador LED y una antena cerámica. También posee los pines o conectores Vcc, Rx, Tx y Gnd por el que se puede conectar a algún microcontrolador mediante una interfaz serial. Para que nuestro módulo GPS funcione a la perfección se recomienda hacer las pruebas en un ambiente abierto o cercano a la ventana para una correcta recepción de la señal.  Los datos que recibimos en nuestro módulo GPS siguen el protocolo NMEA (siglas de National Marine Electronics Asociation), las cuales son sentencias estándares para la recepción de datos GPS. Una de ellas y la más usada son las sentencias $GPRMC, las cuales tienen la siguiente estructura:
 
+![](gps/IMAGENES/Captura.PNG)
+
   
 
 
