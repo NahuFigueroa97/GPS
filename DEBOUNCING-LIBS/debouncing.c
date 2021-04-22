@@ -9,8 +9,8 @@
 #include "debouncing.h"
 
 delay_t delay1;
-uint8_t estado[]={no_presionado,no_presionado,no_presionado,no_presionado};
-uint8_t evento[]={boton_no_apretado,boton_no_apretado,boton_no_apretado,boton_no_apretado};
+uint8_t estado[]={no_presionado,no_presionado,no_presionado};
+uint8_t evento[]={boton_no_apretado,boton_no_apretado};
 
 void initFSM() {
 	delayConfig(&delay1, 40);
