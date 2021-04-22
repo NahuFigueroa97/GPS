@@ -1,5 +1,4 @@
 
-=======
 # GPS
 Biblioteca liviana para la lectura de un GPS NEO-6M
 
